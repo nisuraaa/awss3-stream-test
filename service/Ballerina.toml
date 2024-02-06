@@ -1,0 +1,15 @@
+[package]
+org = "nisura"
+name = "service"
+version = "0.1.0"
+distribution = "2201.8.4"
+
+[build-options]
+observabilityIncluded = true
+
+
+[[dependency]]
+org = "ballerinax"
+name = "aws.s3"
+version = "3.3.0"
+repository = "local"
